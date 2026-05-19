@@ -1,0 +1,47 @@
+// Plugins comunes para todos los subproyectos
+plugins {
+    id 'java' // Aplica el plugin de Java a todos los subproyectos
+}
+
+// Configuración común para todos los subproyectos
+allprojects {
+    group = 'com.simplecore.erp'
+    version = '1.0.0'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+// Configuración específica para los subproyectos
+subprojects {
+    apply plugin: 'java'
+
+    // Propiedad para la clase principal (se puede sobrescribir en cada subproyecto)
+    ext {
+        mainClass = '' // Inicialmente vacía, se define en cada subproyecto
+    }
+
+    // Configuración de la tarea 'jar'
+    tasks.withType(Jar) {
+        manifest {
+            if (project.hasProperty('mainClass') && !mainClass.isEmpty()) {
+                attributes 'Main-Class': mainClass
+            }
+        }
+        from {
+            configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+        }
+    }
+
+    // Dependencias comunes
+    dependencies {
+        testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
+    }
+
+    // Configuración del compilador de Java
+    java {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+}

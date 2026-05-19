@@ -1,0 +1,21 @@
+
+package com.simplecore.erp.config.database.tables;
+
+
+public enum operaciones_por_ordenes {
+    
+NUM_ORDEN,
+DESCRIPCION_ORDEN,
+NUM_OPERACION,
+DESCRIPCION_OPERACION,
+CANTIDAD_OPERACION,
+COSTO_UNITARIO,
+UNIDAD_MEDIDA,
+ID_TIPO_OPERACION,
+TIPO_OPERACION,
+DURACION,
+MONTO_TOTAL,
+REGISTRO,
+CONTEO
+    
+}

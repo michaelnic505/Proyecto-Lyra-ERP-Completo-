@@ -1,0 +1,181 @@
+FOLDERINDEX,FOLDERNAME,TRANSACTION,TRANSACTIONNAME
+L5.2,Users,U01,User Registration
+L5.2,Users,U02,Password Management
+L5.2,Users,U03,User Status Management
+L5.2,Users,U04,User Activity Logging
+L5.2,Users,U05,User Event Notifications
+L5.1,Access,AC01,Role and Permission Management
+L5.1,Access,AC02,Transaction Assignment
+L5.1,Access,AC03,Access Auditing
+L5.1,Access,AC04,Access Period Management
+L5.1,Access,A05,Unauthorized Access Alerts
+L5.1,Access,A06,Permission Modification
+L3.8,Training Plans,TP1,Create Training Plans
+L3.8,Training Plans,TP2,Course Scheduling
+L3.8,Training Plans,TP3,Training Attendance Records
+L3.8,Training Plans,TP4,Progress Tracking
+L3.8,Training Plans,TP5,Training Effectiveness Evaluation
+L3.8,Training Plans,TP6,Training Reports
+L3.7,Time Management,T01,Schedule Management
+L3.7,Time Management,T02,Attendance Records
+L3.7,Time Management,T03,Vacation and Absence Requests
+L3.7,Time Management,T04,Overtime Tracking
+L3.7,Time Management,T05,Worked Time Reports
+L3.7,Time Management,T06,Labor Law Compliance
+L3.6,Performance Evaluations,PE1,Create Evaluations
+L3.6,Performance Evaluations,PE2,Evaluation Criteria
+L3.6,Performance Evaluations,PE3,Performance Tracking
+L3.6,Performance Evaluations,PE4,360? Feedback
+L3.6,Performance Evaluations,PE5,Performance Reports
+L3.6,Performance Evaluations,PE6,Goal Setting
+L3.4,Payroll Analysis,PA1,Salary Analysis
+L3.4,Payroll Analysis,PA2,Deductions and Benefits Calculation
+L3.4,Payroll Analysis,PA3,Payroll Cost Reports
+L3.4,Payroll Analysis,PA4,Payroll vs Budget Comparison
+L3.4,Payroll Analysis,PA5,Salary Distribution Analysis
+L3.5,Payroll Management,PM1,Payroll Registration
+L3.5,Payroll Management,PM2,Automatic Salary Calculation
+L3.5,Payroll Management,PM3,Payroll Slip Generation
+L3.5,Payroll Management,PM4,Payment Scheduling
+L3.5,Payroll Management,PM5,Compliance with Regulations
+L3.5,Payroll Management,PM6,Payroll Reports
+L3.3,Master data,HROJ,Human Resources Objects
+L3.2,Employee Management,EM1,Employee Registration
+L3.2,Employee Management,EM2,Assign Roles and Responsibilities
+L3.2,Employee Management,EM3,Attendance and Schedule Management
+L3.2,Employee Management,EM4,Performance Evaluations
+L3.2,Employee Management,EM5,Contract and Benefit Management
+L3.1,Certifications,CR31,Certification Records
+L3.1,Certifications,CR32,Expiration Dates
+L3.1,Certifications,CR33,Certificate Updates
+L2.6.1,Bank Accounts,B11,Bank Account Registration
+L2.6.1,Bank Accounts,B12,Bank Transaction Records
+L2.6.1,Bank Accounts,B13,Bank Reconciliation
+L2.6.1,Bank Accounts,B14,Account Statement
+L2.5,Societies,S21,Create Society
+L2.5,Societies,S22,Modify Society
+L2.5,Societies,S23,View Society
+L2.4,Master data,COBJ,Controlling Objects
+L2.3.2,General Accounts,G01,Chart of Accounts
+L2.3.2,General Accounts,G02,Transaction Record
+L2.3.2,General Accounts,G03,Accounting Adjustments
+L2.3.2,General Accounts,G04,Bank Reconciliation
+L2.3.2,General Accounts,G05,Balance Reports
+L2.3.3,Journal Entries,J01,Create Journal Entries
+L2.3.3,Journal Entries,J02,Modify and Adjust Entries
+L2.3.3,Journal Entries,J03,Entry Date and Period
+L2.3.3,Journal Entries,J04,Journal Entry Reports
+L2.3.1,Financial Statements,F11,Income Statement
+L2.3.1,Financial Statements,F12,Balance Sheet
+L2.3.1,Financial Statements,F13,Cash Flow
+L2.3.1,Financial Statements,F14,Reports
+L2.3.1,Financial Statements,F15,Financial Analysis
+L2.2.3,Cost Orders,CO1,Create Cost Order
+L2.2.3,Cost Orders,CO2,Assign Costs to Orders
+L2.2.3,Cost Orders,CO3,Order Costing
+L2.2.3,Cost Orders,CO4,Estimated vs Actual Costs
+L2.2.3,Cost Orders,CO5,Reports
+L2.2.2,Cost Centers,C31,Create Cost Center
+L2.2.2,Cost Centers,C32,Modify Cost Center
+L2.2.2,Cost Centers,C33,Cost Centers List
+L2.2.1,Cost Analysis,C21,Product Costing
+L2.2.1,Cost Analysis,C22,Cost Comparison
+L2.2.1,Cost Analysis,C23,Deviation Identification
+L2.2.1,Cost Analysis,C24,Profitability Report
+L2.2.1,Cost Analysis,C25,Cost Optimization
+L2.1,Areas,A01,Create Company Area
+L2.1,Areas,A02,Modify Area
+L2.1,Areas,A03,View Area
+L2.1,Areas,A04,Area List
+L1.4.3,Master Data,POBJ,Production Objects
+L1.4.2.2,Non Conformities,NC1,Non-Conformity Records
+L1.4.2.2,Non Conformities,NC2,Corrective Actions
+L1.4.2.1,Inspection,I01,Inspection Records
+L1.4.2.1,Inspection,I02,Evaluation Criteria
+L1.4.2.1,Inspection,I03,Defect Detection
+L1.4.2.1,Inspection,I04,Result Analysis
+L1.4.1.3,Resources Planning,RP1,Material Requirement Calculation
+L1.4.1.3,Resources Planning,RP2,Available Stock
+L1.4.1.3,Resources Planning,RP3,Generate Purchase Order
+L1.4.1.3,Resources Planning,RP4,Reserve Materials
+L1.4.1.3,Resources Planning,RP5,Assign Labor
+L1.4.1.3,Resources Planning,RP6,Record Worked Hours
+L1.4.1.2,Production Tracking,PT1,Production Status
+L1.4.1.2,Production Tracking,PT2,Update Orders
+L1.4.1.2,Production Tracking,PT3,Efficiency Analysis
+L1.4.1.2,Production Tracking,PT4,Performance
+L1.4.1.2,Production Tracking,PT5,Production Downtime
+L1.4.1.1,Production Orders,P11,Create Production Order
+L1.4.1.1,Production Orders,P12,Correct Production Order
+L1.4.1.1,Production Orders,P13,View Production Order
+L1.4.1.1,Production Orders,P14,Production Order List
+L1.4.1.1,Production Orders,P15,Reports
+L1.3.7,Work Orders,W11,Create Work Order
+L1.3.7,Work Orders,W12,Modify Work Order
+L1.3.7,Work Orders,W13,View Work Order
+L1.3.7,Work Orders,W14,Approve Work Order
+L1.3.7,Work Orders,W15,Approve by List
+L1.3.7,Work Orders,W16,Cost Settlement
+L1.3.8,Work Requets,WR1,Create Work Request
+L1.3.8,Work Requets,WR2,Modify Work Request
+L1.3.8,Work Requets,WR3,View Work Request
+L1.3.6,Strategies,E21,Create Maintenance Strategy
+L1.3.6,Strategies,E22,Modify Strategy
+L1.3.6,Strategies,E23,View Strategy
+L1.3.6,Strategies,E24,Strategy List
+L1.3.5,Routine Worksheets,R01,Create Routine Sheet
+L1.3.5,Routine Worksheets,R02,Modify Routine Sheet
+L1.3.5,Routine Worksheets,R03,View Routine Sheet
+L1.3.5,Routine Worksheets,R04,Procedures
+L1.3.3,Failures Management,F01,New Root Cause Analysis
+L1.3.3,Failures Management,F02,Analysis Status
+L1.3.3,Failures Management,F03,Action Plans
+L1.3.3,Failures Management,F04,Equipment Analysis
+L1.3.4,Locations,L01,Create Physical Location
+L1.3.4,Locations,L02,Modify Physical Location
+L1.3.4,Locations,L03,View Physical Location
+L1.3.4,Locations,L04,Location List
+L1.3.2,Equipments,E01,Create Equipment
+L1.3.2,Equipments,E02,Modify Equipment
+L1.3.2,Equipments,E03,View Equipment
+L1.3.2,Equipments,E04,Equipment List
+L1.3.1,Counters,C11,Create Counter
+L1.3.1,Counters,C12,Modify Counter
+L1.3.1,Counters,C13,View Counter
+L1.3.1,Counters,C14,Input Measurement Data
+L1.3.1,Counters,C15,Modify Measured Document
+L1.2.2.2,Supplier Requests,SR1,Create Purchase Request
+L1.2.2.2,Supplier Requests,SR2,Modify Purchase Request
+L1.2.2.2,Supplier Requests,SR3,View Requests
+L1.2.2.3,Suppliers,S11,Create Supplier
+L1.2.2.3,Suppliers,S12,Modify Supplier
+L1.2.2.3,Suppliers,S13,View Supplier
+L1.2.2.1,Purchase Orders,P01,Create Purchase Order
+L1.2.2.1,Purchase Orders,P02,Modify Purchase Order
+L1.2.2.1,Purchase Orders,P03,View Purchase Order
+L1.2.2.1,Purchase Orders,P04,Authorize Orders
+L1.2.2.1,Purchase Orders,P05,Purchase Analysis
+L1.2.1.2,Warehouses,W01,Create Warehouse
+L1.2.1.2,Warehouses,W02,Modify Warehouse
+L1.2.1.2,Warehouses,W03,View Warehouse
+L1.2.1.2,Warehouses,W04,Warehouse Analysis
+L1.2.1.1,Materials,M01,Create Material
+L1.2.1.1,Materials,M02,Modify Material
+L1.2.1.1,Materials,M03,View Material
+L1.2.1.1,Materials,M04,Material List
+L1.1.3.2,Sales Orders,S01,Create Sales Order
+L1.1.3.2,Sales Orders,S02,Order Status
+L1.1.3.2,Sales Orders,S03,Order List
+L1.1.3.2,Sales Orders,S04,Inventory
+L1.1.3.1,Billing,B01,Issue Invoices
+L1.1.3.1,Billing,B02,Correct Invoices
+L1.1.3.1,Billing,B03,Accounts Receivable
+L1.1.3.1,Billing,B04,Billing Analysis
+L1.1.3.1,Billing,B05,Reports
+L1.1.2,Master data,MD1,Objects
+L1.1.1.2,Customer Analysis,CA1,Analyze Customer
+L1.1.1.1,Clients,C01,Create Client
+L1.1.1.1,Clients,C02,Modify Client
+L1.1.1.1,Clients,C03,View Client
+L1.1.1.1,Clients,C04,Client List
+L5.3,Master Data,SYSOBJ,System Objects

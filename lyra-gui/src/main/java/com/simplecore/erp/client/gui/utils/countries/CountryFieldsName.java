@@ -1,0 +1,34 @@
+
+package com.simplecore.erp.client.gui.utils.countries;
+
+/**
+ * @author Michael F. Sánchez
+ * @since 2024
+ * @project Lyra Core+ ERP
+ * @company SimpleCore Systems
+ * @country Republic of Nicaragua   
+ * 
+ */
+public enum CountryFieldsName {
+
+    COUNTRY_SEARCH_WINDOW_COUNTRY_ID("COUNTRY.SEARCH.WINDOW.COUNTRY.ID"),
+    COUNTRY_SEARCH_WINDOW_COUNTRY_ALPHA2("COUNTRY.SEARCH.WINDOW.COUNTRY.ALPHA2"),
+    COUNTRY_SEARCH_WINDOW_COUNTRY_ALPHA3("COUNTRY.SEARCH.WINDOW.COUNTRY.ALPHA3"),
+    COUNTRY_SEARCH_WINDOW_COUNTRY_NAME("COUNTRY.SEARCH.WINDOW.COUNTRY.NAME"),
+    COUNTRY_SEARCH_WINDOW_CURRENCY_CODE("COUNTRY.SEARCH.WINDOW.CURRENCY.CODE"),
+    COUNTRY_SEARCH_WINDOW_CURRENCY_NAME("COUNTRY.SEARCH.WINDOW.CURRENCY.NAME"),
+    COUNTRY_SEARCH_WINDOW_CURRENCY_SYMBOL("COUNTRY.SEARCH.WINDOW.CURRENCY.SYMBOL"),
+    COUNTRY_SEARCH_WINDOW_CURRENCY_SYMBOL_NAME("COUNTRY.SEARCH.WINDOW.CURRENCY.SYMBOL.NAME");
+    
+   private String key;
+
+    private CountryFieldsName(String key) {
+        this.key = key;
+    }
+
+    public String getKey() {
+        return key;
+    }
+   
+
+}
