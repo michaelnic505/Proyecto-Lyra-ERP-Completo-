@@ -1,0 +1,143 @@
+2025-05-04 07:38:17 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-04 07:38:18 [pool-1-thread-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32198574
+2025-05-04 07:38:18 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-04 08:58:50 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-04 08:58:51 [pool-1-thread-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26814a6b
+2025-05-04 08:58:51 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-04 10:57:01 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-04 10:57:02 [pool-1-thread-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7826abe9
+2025-05-04 10:57:02 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-04 11:16:01 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-04 11:16:01 [pool-1-thread-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26814a6b
+2025-05-04 11:16:01 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-04 11:43:02 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-04 11:43:03 [pool-1-thread-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18cbe3c5
+2025-05-04 11:43:03 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-04 11:54:27 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-04 11:54:28 [pool-1-thread-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18cbe3c5
+2025-05-04 11:54:28 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-04 12:20:32 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-04 12:20:33 [pool-1-thread-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26814a6b
+2025-05-04 12:20:33 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-04 13:06:20 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-04 13:06:20 [pool-1-thread-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d2250c5
+2025-05-04 13:06:20 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-04 15:08:27 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-04 15:08:27 [pool-1-thread-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32198574
+2025-05-04 15:08:27 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-04 15:11:53 [pool-1-thread-1] WARN  c.s.e.s.managers.FICompanyManager - FI Company creation returned 0 rows inserted
+java.sql.BatchUpdateException: Data truncation: Data too long for column 'DOCUMENT_TYPE' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:816)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:418)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:795)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:128)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java)
+	at com.simplecore.erp.server.managers.FICompanyManager.createdCompanyDocuments(FICompanyManager.java:137)
+	at com.simplecore.erp.server.managers.FICompanyManager.createFICompany(FICompanyManager.java:95)
+	at com.simplecore.erp.server.services.FICompanyService.createFICompany(FICompanyService.java:22)
+	at com.simplecore.erp.server.handlers.FICompanyCreateHandler.handle(FICompanyCreateHandler.java:21)
+	at com.simplecore.erp.server.handlers.FICompanyCreateHandler.handle(FICompanyCreateHandler.java:17)
+	at com.simplecore.erp.server.main.RequestDispatcher.dispatch(RequestDispatcher.java:165)
+	at com.simplecore.erp.server.main.ClientHandler.run(ClientHandler.java:77)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'DOCUMENT_TYPE' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:795)
+	... 16 common frames omitted
+2025-05-04 15:17:27 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-04 15:17:28 [pool-1-thread-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4de3c8c8
+2025-05-04 15:17:28 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-04 15:19:58 [pool-1-thread-1] WARN  c.s.e.s.managers.FICompanyManager - FI Company creation returned 0 rows inserted
+java.sql.BatchUpdateException: Cannot add or update a child row: a foreign key constraint fails (`maintenance_managment`.`fico_company_relation`, CONSTRAINT `FK_FICO_CO_COMPANY` FOREIGN KEY (`CO_COMPANY_ID`) REFERENCES `co_company` (`CO_COMPANY_ID`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:816)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:418)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:795)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:128)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java)
+	at com.simplecore.erp.server.managers.FICompanyManager.executeRelationsBatchInsert(FICompanyManager.java:192)
+	at com.simplecore.erp.server.managers.FICompanyManager.createFICompany(FICompanyManager.java:115)
+	at com.simplecore.erp.server.services.FICompanyService.createFICompany(FICompanyService.java:22)
+	at com.simplecore.erp.server.handlers.FICompanyCreateHandler.handle(FICompanyCreateHandler.java:21)
+	at com.simplecore.erp.server.handlers.FICompanyCreateHandler.handle(FICompanyCreateHandler.java:17)
+	at com.simplecore.erp.server.main.RequestDispatcher.dispatch(RequestDispatcher.java:165)
+	at com.simplecore.erp.server.main.ClientHandler.run(ClientHandler.java:77)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`maintenance_managment`.`fico_company_relation`, CONSTRAINT `FK_FICO_CO_COMPANY` FOREIGN KEY (`CO_COMPANY_ID`) REFERENCES `co_company` (`CO_COMPANY_ID`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:795)
+	... 16 common frames omitted
+2025-05-04 15:49:57 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-04 15:49:58 [pool-1-thread-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f32249a
+2025-05-04 15:49:58 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-04 15:52:49 [pool-1-thread-1] WARN  c.s.e.s.managers.FICompanyManager - FI Company creation returned 0 rows inserted
+java.sql.BatchUpdateException: Cannot add or update a child row: a foreign key constraint fails (`maintenance_managment`.`fico_company_relation`, CONSTRAINT `FK_FICO_CO_COMPANY` FOREIGN KEY (`CO_COMPANY_ID`) REFERENCES `co_company` (`CO_COMPANY_ID`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:816)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:418)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:795)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:128)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java)
+	at com.simplecore.erp.server.managers.FICompanyManager.executeRelationsBatchInsert(FICompanyManager.java:190)
+	at com.simplecore.erp.server.managers.FICompanyManager.createFICompany(FICompanyManager.java:99)
+	at com.simplecore.erp.server.services.FICompanyService.createFICompany(FICompanyService.java:22)
+	at com.simplecore.erp.server.handlers.FICompanyCreateHandler.handle(FICompanyCreateHandler.java:21)
+	at com.simplecore.erp.server.handlers.FICompanyCreateHandler.handle(FICompanyCreateHandler.java:17)
+	at com.simplecore.erp.server.main.RequestDispatcher.dispatch(RequestDispatcher.java:165)
+	at com.simplecore.erp.server.main.ClientHandler.run(ClientHandler.java:77)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`maintenance_managment`.`fico_company_relation`, CONSTRAINT `FK_FICO_CO_COMPANY` FOREIGN KEY (`CO_COMPANY_ID`) REFERENCES `co_company` (`CO_COMPANY_ID`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:795)
+	... 16 common frames omitted
+2025-05-04 16:11:24 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-04 16:11:24 [pool-1-thread-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56d83b37
+2025-05-04 16:11:24 [pool-1-thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-04 16:14:07 [pool-1-thread-1] WARN  c.s.e.s.managers.FICompanyManager - FI Company creation returned 0 rows inserted
+java.sql.BatchUpdateException: Cannot add or update a child row: a foreign key constraint fails (`maintenance_managment`.`fico_company_relation`, CONSTRAINT `FK_FICO_CREATED_BY` FOREIGN KEY (`FICO_CREATED_BY`) REFERENCES `users` (`USERNAME`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:816)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:418)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:795)
+	at com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:128)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java)
+	at com.simplecore.erp.server.managers.FICompanyManager.executeRelationsBatchInsert(FICompanyManager.java:176)
+	at com.simplecore.erp.server.managers.FICompanyManager.createFICompany(FICompanyManager.java:99)
+	at com.simplecore.erp.server.services.FICompanyService.createFICompany(FICompanyService.java:22)
+	at com.simplecore.erp.server.handlers.FICompanyCreateHandler.handle(FICompanyCreateHandler.java:21)
+	at com.simplecore.erp.server.handlers.FICompanyCreateHandler.handle(FICompanyCreateHandler.java:17)
+	at com.simplecore.erp.server.main.RequestDispatcher.dispatch(RequestDispatcher.java:165)
+	at com.simplecore.erp.server.main.ClientHandler.run(ClientHandler.java:77)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`maintenance_managment`.`fico_company_relation`, CONSTRAINT `FK_FICO_CREATED_BY` FOREIGN KEY (`FICO_CREATED_BY`) REFERENCES `users` (`USERNAME`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:795)
+	... 16 common frames omitted

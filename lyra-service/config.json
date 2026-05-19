@@ -1,0 +1,13 @@
+{
+    "server": {
+        "server_name": "server1",
+        "server_port": 5050
+    },
+    "database": {
+        "dbport": "3306",
+        "dbname": "maintenance_managment",
+        "dbpassword": "maycol123",
+        "dbuser": "root",
+        "dbhost": "10.147.17.56"
+    }
+}

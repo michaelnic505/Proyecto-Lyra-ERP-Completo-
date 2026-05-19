@@ -1,0 +1,25 @@
+
+package com.simplecore.erp.server.config.database.oldtables;
+
+public enum Ubications {
+
+    ID_UBICACION,
+    DENOMINACION_UBICACION,
+    ID_UBICACION_SUPERIOR,
+    DENOMINACION_UBICACION_SUP,
+    MONTAJE_PERMITIDO,
+    ESTATUS,
+    NIVEL,
+    TIPO_REGISTRO,
+    CENTRO_COSTOS,
+    DESCRIPCION_CC,
+    EMPLAZAMIENTO,
+    DESCRIPCION_EMP,
+    AREA,
+    DESCRIPCION_AREA,
+    SOCIEDAD,
+    DESCRIPCION_SOCIEDAD,
+    GRUPO_PLANIF,
+    DESCRIPCION_G_PLANIF
+
+}

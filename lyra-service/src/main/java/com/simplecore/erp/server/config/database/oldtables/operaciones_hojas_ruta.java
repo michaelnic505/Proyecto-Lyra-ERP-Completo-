@@ -1,0 +1,23 @@
+
+package com.simplecore.erp.server.config.database.oldtables;
+
+public enum operaciones_hojas_ruta {
+    
+HOJA_RUTA,
+DESCRIPCION_HOJA_RUTA,
+NUM_OPERACION,
+DESCRIPCION_OPERACION,
+CANTIDAD_OPERACION,
+COSTO_UNITARIO,
+UNIDAD_MEDIDA,
+ID_TIPO_OPERACION,
+TIPO_OPERACION,
+DURACION,
+MONTO_TOTAL,
+REGISTRO,
+CONTEO,
+PAQUETE
+    
+    
+    
+}

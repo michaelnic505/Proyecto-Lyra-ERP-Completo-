@@ -1,0 +1,66 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.simplecore.erp'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation libs.junit.jupiter
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    implementation libs.guava
+    implementation 'mysql:mysql-connector-java:8.0.33'
+    implementation project(':lyra-shared')
+    implementation 'com.zaxxer:HikariCP:6.2.1'
+    implementation 'commons-net:commons-net:3.11.1'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    implementation 'com.toedter:jcalendar:1.4'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'org.json:json:20250107'
+    implementation 'org.fusesource.jansi:jansi:2.4.1'
+    implementation 'org.slf4j:slf4j-api:2.0.9'
+    implementation 'ch.qos.logback:logback-classic:1.4.11'  // Logback como implementación
+    implementation 'ch.qos.logback:logback-core:1.2.6'  // Requerido para Logback
+    implementation 'com.googlecode.lanterna:lanterna:3.1.3'
+
+}
+
+// Configuración de fuentes y recursos
+sourceSets {
+    main {
+        java.srcDirs = ['src/main/java']
+        resources.srcDirs = ['src/main/resources']
+    }
+}
+
+application {
+    mainClass = 'com.simplecore.erp.server.main.LyraConsole' // Especifica la clase principal
+}
+
+// Configuración para el archivo JAR
+jar {
+    archiveBaseName = 'Lyra Server' // Define el nombre del archivo JAR
+    archiveVersion = '1.0.0'  // Define la versión del archivo JAR
+    destinationDirectory = file("$buildDir/libs") // Asegura que el archivo JAR se guarde en 'build/libs'
+    
+    manifest {
+        attributes (
+            'Main-Class': 'com.simplecore.erp.server.main.LyraConsole'  // Configura la clase principal en el manifiesto        
+        )        
+    }
+
+    // Asegura que se incluyan las dependencias necesarias dentro del JAR
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+// Ignorar archivos duplicados al crear el JAR
+tasks.withType(Jar) {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
